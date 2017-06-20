@@ -1,0 +1,16 @@
+piper:
+  start_conf: [-1.92, 1.5, 0.53, -2.5, -2.91, 0.72]
+  start_pose: [0, 0, 0]
+  goal_conf: [4.7124, 3.1416, 3.1416, 0.0, 0.0, 0.0]
+  goal_pose: [2, -1, -1.5708]
+  sdf_file: sdf/empty_sdf.bin
+  total_time: 10.0
+  total_step: 10
+  obs_check_inter: 5
+  control_inter: 5
+  cost_sigma: 0.005
+  epsilon: 0.1
+  fix_pose_sigma: 0.0001
+  fix_vel_sigma: 0.0001
+  Qc: 1.0
+  opt_type: LM
