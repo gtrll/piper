@@ -22,7 +22,7 @@ Table of Contents
 Prerequisites
 ------
 
-- Install [ROS](http://wiki.ros.org/indigo/Installation/Ubuntu). We have tested ROS indigo on Ubuntu 14.04.
+- Install [ROS](http://wiki.ros.org/Distributions). We have tested up to ROS Kinetic on Ubuntu 16.04.
 - Install [GPMP2](https://github.com/gtrll/gpmp2) C++ library.
 
 
