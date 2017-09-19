@@ -24,7 +24,7 @@ namespace piper {
  *
  *  @param v std double vector
  **/
-static gtsam::Vector getVector(const std::vector<double>& v)
+static const gtsam::Vector getVector(const std::vector<double>& v)
 {
   gtsam::Vector send(v.size());
   for (size_t i=0; i<v.size(); i++)
