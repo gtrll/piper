@@ -16,6 +16,7 @@ Table of Contents
 - [Compilation and Installation](#compilation-and-installation)
 - [Questions and Bug reporting](#questions-and-bug-reporting)
 - [Citing](#citing)
+- [FAQs](#faqs)
 - [License](#license)
 
 ---
@@ -95,6 +96,14 @@ If you use PIPER in an academic context, please cite any module/algorithm specif
   year={2017}
 }
 ```
+
+
+FAQs
+-----
+
+- Q: Cannot find trajectory_control server error
+
+  A: To be able to run the included examples you need to have an [action server](http://wiki.ros.org/actionlib_tutorials/Tutorials/SimpleActionServer%28ExecuteCallbackMethod%29) set up in your real or simulated robot's API. See ```trajectory_control_topic``` in [robot config](https://github.com/gtrll/piper/blob/master/doc/config.md).
 
 
 License
