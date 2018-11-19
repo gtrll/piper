@@ -110,7 +110,7 @@ FAQs
   A: First verify if the error is related to different versions of Eigen being linked.
   Run ```gdb ~/piper_ws/devel/lib/piper/gpmp2_interface``` and ```r```. If you get the following error
   ```Program received signal SIGSEGV, Segmentation fault. 0x00007ffff672a2e7 in gtsam::noiseModel::Constrained::Constrained(Eigen::Matrix<double, -1, 1, 0, -1, 1> const& Eigen::Matrix<double, -1, 1, 0, -1, 1> const&) () from /usr/local/lib/libgtsam.so.4```,
-  it means that there are at least two versions of eigen conflicting. Make sure to install GTSAM with system Eigen. Then istall GPMP2 and try this again.
+  it means that there are at least two versions of eigen conflicting. Make sure to install GTSAM with system Eigen. Then install GPMP2 and try this again.
 
 
 License
