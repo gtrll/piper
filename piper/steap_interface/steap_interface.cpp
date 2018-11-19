@@ -210,7 +210,7 @@ void mainCallback(const std_msgs::Bool::ConstPtr& msg)
 /* main function */
 int main(int argc, char** argv)
 {
-  ros::init(argc, argv, "steap_interface");
+  ros::init(argc, argv, "steap_interface", ros::init_options::NoSigintHandler);
   signal(SIGINT, piper::sigintHandler);
   ros::MultiThreadedSpinner spinner(0);
 
